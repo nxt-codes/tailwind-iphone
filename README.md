@@ -1,6 +1,9 @@
 # tailwind-iphone
 It's a simple model of an iPhone made only with HTML and tailwind.
 
+## Demo
+[Demo](https://nxt-codes.github.io/tailwind-iphone/)
+
 ## Configuration
 As we are using npm, create a package.json file if it doesn't exist:
 ```bash
