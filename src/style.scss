@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient1 {
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 50px;
+    border: double 8px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(180deg, #736efe, #5efce7);
+}
+
+.gradient2 {
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 50px;
+    border: double 8px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(200deg, #8c1bab, #f761ff);
+}
+
+.bg {
+    background: url("assets/backgrounds/bg.png");
+    background-size: cover;
+}
