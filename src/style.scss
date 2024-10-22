@@ -22,3 +22,17 @@
     background: url("assets/backgrounds/bg.png");
     background-size: cover;
 }
+
+.horizontal-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.horizontal-center-rg {
+    left: 50%;
+    transform: translateX(-49%);
+}
+.horizontal-center-lv {
+    left: 50%;
+    transform: translateX(-51%);
+}
