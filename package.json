@@ -4,7 +4,8 @@
   "description": "It's a simple model of an iPhone made only with HTML and tailwind.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwindcss -i ./src/style.scss -o ./src/style.css --watch"
   },
   "keywords": [],
   "author": "",
