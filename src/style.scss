@@ -23,16 +23,103 @@
     background-size: cover;
 }
 
-.horizontal-center {
-    left: 50%;
-    transform: translateX(-50%);
+.tl {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+.tl:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-top: 1px solid black;
+}
+.tl:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-left: 1px solid black;
+}
+.tr {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+.tr:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-top: 1px solid black;
+}
+.tr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid black;
+}
+.bl {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    margin-bottom: 50px;
+}
+.bl:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid black;
+}
+.bl:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-left: 1px solid black;
+}
+.br {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    margin-bottom: 50px;
+}
+.br:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid black;
+}
+.br:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid black;
 }
 
-.horizontal-center-rg {
-    left: 50%;
-    transform: translateX(-49%);
-}
-.horizontal-center-lv {
-    left: 50%;
-    transform: translateX(-51%);
+.gradient2 {
+    background: linear-gradient(to right, #8c1bab, #f761ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
