@@ -5,7 +5,9 @@ It's a simple model of an iPhone made only with HTML and tailwind. This project 
 [Demo](https://nxt-codes.github.io/tailwind-iphone/)
 
 ## Result
-<img src="https://github.com/nxt-codes/tailwind-iphone/blob/main/src/assets/images/phone%20in%20hand.png" width="200" height="200" />
+<p align="center" width="100%">
+    <img width="300" src="https://github.com/nxt-codes/tailwind-iphone/blob/main/src/assets/images/phone%20in%20hand.png"> 
+</p>
 
 ## Configuration
 As we are using npm, create a package.json file if it doesn't exist:
